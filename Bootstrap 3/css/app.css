@@ -1,0 +1,45 @@
+div{
+border: 1px solid black;
+}
+
+/* .container{
+  border-color: red;
+} */
+
+/* *{
+
+} */
+
+.jumbotron{
+  text-align: center;
+
+}
+
+.menu{
+  /*height: 300px;*/
+}
+
+.cajaverde{
+  background-color: green;
+}
+.cajaazul{
+  background-color: blue;
+}
+
+.navegacion{
+  margin-top: 20px;
+}
+
+.imagen_falsa{
+height: 200px;
+width: 100%;
+background-color: gray;
+padding: 10px;
+}
+.post{
+  padding: 10px;
+}
+
+div>ul>li{
+  display: inline;
+}

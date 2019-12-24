@@ -1,0 +1,335 @@
+body{
+    background-image: url(../img/transparente3.jpg ) ;
+
+    
+}
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+  
+}
+ul li{
+    list-style: none;
+}
+.nav li a{
+  
+    color: white;
+    text-decoration: none;
+    padding: 10px 35px;
+    display: block;
+    font-size: 15px;
+
+}
+
+.nav > li{
+    float: left;
+ 
+}
+.nav li a:hover{
+    background-color: rgb(172, 201, 214);
+    color: black;
+}
+.nav li ul{
+    display:none;
+    position: absolute;
+    min-width: 195px;
+    
+}
+.nav li:hover> ul{
+    display: block;
+}
+.nav li ul li{
+    position: relative;
+    text-align: center;
+    background-color: rgb(48, 125, 128);
+    color:black;
+    
+}
+.nav li ul li ul{
+    right: -195px;
+    top:0px;
+   
+}
+
+.header{
+    background-color: rgb(35, 98, 100);
+}
+.row{
+    border:none;
+}
+
+.targeta{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 1000px;
+}
+.registro{
+    position: absolute;
+  
+    color: black;
+    margin-top: 13px;
+    margin-left: 112px;
+    font-size: 19px;
+}
+.identificacion{
+    position: absolute;
+    margin-left: 900px;
+    margin-top:230px;
+    font-size: 16px;
+    color: white;
+   
+}
+.terminos{
+     color:white;
+}
+b{
+    color:transparent;
+}
+
+.texto{
+  
+  
+    border-color: rgb(35, 98, 100);
+
+border-left-width: 0px;
+border-right-width: 0px;
+border-top-width: 0px;
+border-bottom: 4px solid white;
+background-color: transparent;
+
+}
+.btn-comprar{
+    background-color:rgb(6, 179, 93);
+    color: white;
+    font-size: 18px;
+    margin-left: 168px;
+    margin-bottom:55px;
+    border-radius: 5px;
+    
+    }
+    .btn-adquirir{
+        margin-top: -275px;
+        margin-left: -1070px;
+        position: absolute;
+        background-color: rgb(56, 216, 56);
+        color: white;
+        border-radius: 5px;
+        font-size: 20px;
+
+    }
+    .btn-adquirir2{
+        margin-top: 118px;
+        margin-left: -1060px;
+        position: absolute;
+        background-color: rgb(56, 216, 56);
+        color: white;
+        border-radius: 5px;
+        font-size: 20px;
+
+    }
+    .btn-adquirir:hover {
+        background-color: rgb(165, 162, 162);
+      
+    }
+    .btn-adquirir2:hover {
+        background-color: rgb(165, 162, 162);
+      
+    }
+    .btn-comprar:hover{
+        background-color: rgb(15, 137, 141);
+    }
+    .logo{
+        margin-top:720px ;
+        position: absolute;
+       
+        border:none;
+        padding-left: 40px;
+        margin-left: 30%;
+       
+    }
+    .footer{
+        color:white;
+        position: absolute;
+        margin-top:710px ;
+        margin-left: 65%;
+        font-size: 17px;
+    }
+    .buscar{
+        margin-top: 25px;
+        border-radius:3px ; 
+        background-color: rgb(56, 216, 56);
+        color: white;
+        font-size: 17px;
+       
+    }
+    .search{
+        margin-top: 25px;
+        border-radius:10px ; 
+        margin-left: 20px;
+        color: black;
+        
+
+    }
+    
+    .compu{
+        margin-top: 40px;
+        position: absolute;
+        margin-left: 30px;
+    }
+    .celu{
+      margin-left: 70px;
+      position: absolute;
+      margin-top: 390px;
+   
+    }
+    .Preciorojo{
+        color:red;
+        margin-top: 160px;
+        margin-left: 40px;
+        position: absolute;
+        font-size: 18px;
+       
+        
+    }
+    .Precioblanco{
+        color: white;
+        margin-top: 180px;
+        margin-left: 40px;
+        position: absolute;
+        font-size: 18px;
+       
+    }
+    .Preciorojo2{
+        color:red;
+        margin-top: 560px;
+        margin-left: 40px;
+        position: absolute;
+        font-size: 18px;
+       
+        
+    }
+    .Precioblanco2{
+        color: white;
+        margin-top: 580px;
+        margin-left: 40px;
+        position: absolute;
+        font-size: 18px;
+       
+    }
+    .video{
+        margin-left: 300px;
+        margin-top: 400px;
+    }
+ 
+    
+    h3{
+        color:white;
+        margin-left: 860px;
+     
+        margin-top:180px ;
+        position: absolute;
+
+    }
+    .pais{
+        margin-left: 130px;
+        color: black;
+        margin-top: 19px;
+        position: absolute;
+
+    }
+    h4{
+        margin-left: 1030px;
+        font-size: 20px;
+       position: absolute;
+      margin-top: 400px;
+       color: cornsilk;
+    }
+     .tecnosmart{
+         margin-right: 20px;
+       color:white;
+   margin-left: 300px;
+   font-size: 25px;
+ 
+    }
+.modelo{
+    background-color: white;
+    color: black;
+    margin-bottom: 30px;
+    margin-left: 18px;
+ }
+ .productos{
+    background-color: white;
+    color: black;
+    margin-top: 100px;
+    margin-left: 18px;
+    
+ }
+   
+   
+
+.slider{
+ position: absolute;
+    height:480px ;
+  margin-top: 20px;
+    width:250px;
+    margin-left:35%;
+  
+    overflow:hidden;
+    }
+    
+    .slider ul{
+    display:flex;
+    padding:0;
+    width:500%;
+    animation: cambio 20s infinite alternate ;
+    
+    }
+    .slider li{
+    width:160%;
+    list-style:none;
+    
+    }
+    .slider img{
+    width:100%;
+    
+    }
+    @keyframes cambio{
+   /* 0% {margin-left:0;}
+    10% {margin-left:0;}
+    
+    25% {margin-left:-100%;}
+    45% {margin-left:-100%;}
+    
+    50% {margin-left:-200%;}
+    70% {margin-left:-200%;}
+    
+    75% {margin-left:-300%;}
+    100% {margin-left:-300%;}*/
+    
+    0% {margin-left:0;}
+    15% {margin-left:0;}
+    
+    20% {margin-left:-100%;}
+    40% {margin-left:-100%;}
+    
+    45% {margin-left:-200%;}
+    60% {margin-left:-200%;}
+    
+    65% {margin-left:-300%;}
+    80% {margin-left:-300%;}
+
+    85% {margin-left:-400%;}
+    100% {margin-left:-400%;} 
+
+    }
+    
+
+
+
+
+
+
+
+  

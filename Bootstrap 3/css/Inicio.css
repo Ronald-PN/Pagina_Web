@@ -1,0 +1,213 @@
+body{
+    background-image: url(../img/asistencia1.png);
+    background-image: no-repeat;
+  
+    
+}
+.footer{
+    color:black;
+    position: absolute;
+    margin-top:545px ;
+    margin-left: 75%;
+    font-size: 17px;
+}
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+  
+}
+ul li{
+    list-style: none;
+}
+.nav li a{
+  
+    color: white;
+    text-decoration: none;
+    padding: 10px 35px;
+    display: block;
+    font-size: 15px;
+
+}
+.productos{
+    margin-left: ;
+}
+.nav > li{
+    float: left;
+ 
+}
+.nav li a:hover{
+    background-color: rgb(172, 201, 214);
+    color: black;
+}
+.nav li ul{
+    display:none;
+    position: absolute;
+    min-width: 195px;
+    
+}
+.nav li:hover> ul{
+    display: block;
+}
+.nav li ul li{
+    position: relative;
+    text-align: center;
+    background-color: rgb(48, 125, 128);
+    color:black;
+    
+}
+.nav li ul li ul{
+    right: -195px;
+    top:0px;
+   
+}
+
+.header{
+    background-color: rgb(35, 98, 100);
+}
+.row{
+    border:none;
+}
+
+.targeta{
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 15px;
+}
+.registro{
+    position: absolute;
+  
+    color: black;
+    margin-top: 13px;
+    margin-left: 112px;
+    font-size: 19px;
+}
+.identificacion{
+    position: absolute;
+    margin-left: 340px;
+    margin-top:130px;
+    font-size: 16px;
+   
+}
+b{
+    color:transparent;
+}
+
+.texto{
+  
+  
+    border-color: rgb(35, 98, 100);
+
+border-left-width: 0px;
+border-right-width: 0px;
+border-top-width: 0px;
+border-bottom: 4px solid #00000077;
+background-color: transparent;
+
+}
+.boton{
+    background-color:rgb(6, 179, 93);
+    color: white;
+    font-size: 18px;
+    margin-left: 100px;
+    margin-bottom:55px;
+    border-radius: 5px;
+    
+    }
+    .boton:hover{
+        background-color: rgb(15, 137, 141);
+    }
+    .logo{
+        margin-top:540px ;
+        position: absolute;
+       
+        border:none;
+        padding-left: 40px;
+        margin-left: 40%;
+       
+    }
+    h3{
+        color:rgb(10, 46, 10);
+        margin-left: 13%;
+     
+        margin-top:550px ;
+        position: absolute;
+
+    }
+     .tecnosmart{
+         margin-right: 20px;
+       color:white;
+   margin-left: 300px;
+   font-size: 25px;
+ 
+    }
+    
+   
+ 
+ 
+
+
+
+.slider{
+ position: absolute;
+    height:400px ;
+  margin-top: 20px;
+    width:220px;
+    margin-left:1050px;
+  
+    overflow:hidden;
+    }
+    
+    .slider ul{
+    display:flex;
+    padding:0;
+    width:500%;
+    animation: cambio 20s infinite alternate ;
+    
+    }
+    .slider li{
+    width:160%;
+    list-style:none;
+    
+    }
+    .slider img{
+    width:100%;
+    
+    }
+    @keyframes cambio{
+   /* 0% {margin-left:0;}
+    10% {margin-left:0;}
+    
+    25% {margin-left:-100%;}
+    45% {margin-left:-100%;}
+    
+    50% {margin-left:-200%;}
+    70% {margin-left:-200%;}
+    
+    75% {margin-left:-300%;}
+    100% {margin-left:-300%;}*/
+    
+    0% {margin-left:0;}
+    15% {margin-left:0;}
+    
+    20% {margin-left:-100%;}
+    40% {margin-left:-100%;}
+    
+    45% {margin-left:-200%;}
+    60% {margin-left:-200%;}
+    
+    65% {margin-left:-300%;}
+    80% {margin-left:-300%;}
+
+    85% {margin-left:-400%;}
+    100% {margin-left:-400%;}
+
+    }
+
+
+
+
+
+
+  

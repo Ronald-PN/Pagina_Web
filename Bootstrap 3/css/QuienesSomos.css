@@ -1,0 +1,135 @@
+#container{
+    border:none
+}  
+
+.fondoo{
+    position: absolute;
+   
+    border:none;
+    margin-top: -210px;
+    margin-left: 75px;
+
+}
+
+.fondoo3{
+    position: absolute;
+    border:none;
+    margin-top: 300px;
+    margin-left: 105px;
+
+}
+.footer{
+    color:rgb(7, 7, 7);
+    position: absolute;
+    margin-top:510px ;
+    margin-left: 65%;
+    font-size: 17px;
+}
+
+.fondoo4{
+    position: absolute;
+   
+    border:none;
+    margin-left: 500px;
+    margin-top: 45px;
+ 
+
+}
+.logo{
+    margin-top:520px ;
+    position: absolute;
+   
+    border:none;
+    padding-left: 40px;
+    margin-left: 30%;
+   
+}
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+
+  
+}
+ul li{
+    list-style: none;
+}
+.nav li a{
+  
+    color: white;
+    text-decoration: none;
+    padding: 10px 35px;
+    display: block;
+    font-size: 17px;
+ 
+
+}
+.productos{
+    margin-left: ;
+}
+.nav > li{
+    float: left;
+ 
+}
+.nav li a:hover{
+    background-color: rgb(172, 201, 214);
+    color: black;
+}
+.nav li ul{
+    display:none;
+    position: absolute;
+    min-width: 235px;
+    
+}
+.nav li:hover> ul{
+    display: block;
+}
+.nav li ul li{
+    position: relative;
+    text-align: center;
+    background-color: rgb(48, 125, 128);
+    color:black;
+    
+}
+.nav li ul li ul{
+    right: -235px;
+    top:0px;
+   
+}
+
+.header{
+    background-color: rgb(35, 98, 100);
+}
+.row{
+    border:none;
+}
+.tecnosmart{
+    color:red
+    ;
+    
+
+}
+.tecnosmart b{
+    color:blue;
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    font-family: cursive;
+ 
+}
+.fondoo2{
+    margin-left:900px;
+    
+    position: absolute;
+    border:none;
+    margin-top: -250px;
+
+}
+.informacion{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    color: rgb(13, 151, 13);
+    
+}

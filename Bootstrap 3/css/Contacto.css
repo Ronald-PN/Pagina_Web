@@ -1,0 +1,129 @@
+
+    
+
+.footer{
+    color:black;
+    position: absolute;
+    margin-top:545px ;
+    margin-left: 35%;
+    font-size: 17px;
+}
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+  
+}
+ul li{
+    list-style: none;
+}
+.nav li a{
+  
+    color: white;
+    text-decoration: none;
+    padding: 10px 35px;
+    display: block;
+    font-size: 15px;
+
+}
+.productos{
+    margin-left: ;
+}
+.nav > li{
+    float: left;
+ 
+}
+.nav li a:hover{
+    background-color: rgb(172, 201, 214);
+    color: black;
+}
+.nav li ul{
+    display:none;
+    position: absolute;
+    min-width: 195px;
+    
+}
+.nav li:hover> ul{
+    display: block;
+}
+.nav li ul li{
+    position: relative;
+    text-align: center;
+    background-color: rgb(48, 125, 128);
+    color:black;
+    
+}
+.nav li ul li ul{
+    right: -195px;
+    top:0px;
+   
+}
+
+.header{
+    background-color: rgb(35, 98, 100);
+}
+.row{
+    border:none;
+}
+.logo{
+    margin-top:240px ;
+    position: absolute;
+   
+    border:none;
+    padding-left: 40px;
+    margin-left: 10%;
+    border: none;
+   
+}
+h3{
+    border:none;
+    position: absolute;
+   margin-left: 30%;
+   margin-top: 80px;
+   color: red;
+   font-size: 30px;
+}
+.twitter{
+    margin-top: 383px;
+    margin-left: 160px;
+    font-size: 20px;
+   
+}
+.whatsapp{
+    margin-top: -35px;
+    margin-left: 340px;
+    font-size: 20px;
+
+}
+.instagram{
+    margin-top: -37px;
+    margin-left: 495px;
+    font-size: 20px;
+    position: absolute;
+
+}
+.facebook{
+    margin-top: -35px;
+    margin-left: 655px;
+    font-size: 20px;
+    position: absolute;
+   
+}
+.contactos{
+    border: none;
+    position: absolute;
+    
+}
+.celuContacto{
+    position: absolute;
+    border:none;
+    margin-top: 20px;
+    margin-left: 55px;
+}
+.laptopContacto{
+    position: absolute;
+    border:none;
+    margin-top: 15px;
+    margin-left: 950px;
+}
